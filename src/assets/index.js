@@ -6,4 +6,4 @@ export { default as Picture } from "./picture.jpg";
 export { default as Chindu } from "./chindu.jpg";
 export { default as Train } from "./train.jpg";
 export { default as Tea } from "./tea.jpg";
-export { default as Order } from "./Order.jpg";
+export { default as Order } from "./order.jpg";
