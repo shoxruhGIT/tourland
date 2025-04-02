@@ -1,0 +1,84 @@
+{
+  "navbar": {
+    "main": "Bosh Sahifa",
+    "about": "Biz haqimizda",
+    "tours": "Turlar",
+    "contact": "Kontaktlar"
+  },
+  "main": {
+    "title": "Sharqning go'zalliklarini biz bilan birgalikda his eting!",
+    "name": "Xitoy",
+    "button": "Biz bilan bog'laning"
+  },
+  "tours": {
+    "title": "Unutilmas Sayohatlar Uchun Top 10 Go‘zal Maskan",
+    "paragraph": "Sizni har hafta yangi imkoniyatlar va kutilmagan sarguzashtlar kutmoqda! Har bir shahar o‘zining maxfiy go‘zalliklarini ochib, sizga yangi sarguzashtlar sovg‘a qiladi. O‘zingizni shu mo‘jizalarning bir qismi deb his qiling!",
+
+    "title_2": "Ushbu manzillarga eksklyuziv sayohatlar taklif qilamiz!",
+    "paragraph_2": "Xitoy shaharlarga siz uchun qulay va xavfsiz sayohatlar tashkil etamiz!"
+  },
+  "tickets": {
+    "title": "Biz Bilan Chiptalarni Arzon va Oson Toping.",
+    "paragraph": "Har bir shaharda eng yaxshi temir yo‘l va aviachipta biletlarini biz bilan toping",
+    "ticket": {
+      "title": "Temir Yo‘l Biletleri Biz Bilan",
+      "desc": "Butun dunyo bo'ylab",
+      "paragraph": "Temir yo'l orqali biz bilan sarguzashtlarni kashf eting! Baland tog'larni, betakror tabiat manzalarni, qadimiy va navqiron shaharlarni, takrorlanmas landshaflarni biz bilan birga toping. Qiziqarlimi? Biz bilan bog'laning.",
+      "btn": "Ko'proq bilish"
+    }
+  },
+  "facts": {
+    "title": "Xitoy Haqida Qiziqarli Faktlar",
+    "description": "Bilamizkiy, Xitoy o‘ziga xos bog‘ madaniyatiga va tarixiga ega. Biz sizga bu bo‘limda qiziqarli ma'lumotlarni taqdim etamiz.",
+    "fact": {
+      "title": "Choy madaniyati",
+      "paragraph": "Xitoyning choy madaniyati",
+      "description": "Xitoy choy madaniyati asrlar davomida shakllangan va dunyodagi eng qadimiy an'analardan biridir. Choy ichish Xitoy xalqining kundalik hayotining ajralmas qismiga aylangan bo‘lib, bu madaniyat nafaqat ichimlikni tayyorlash uslubini, balki sog‘liq va ruhiyatga bo‘lgan hurmatni ham aks ettiradi.",
+      "btn": "Ko'proq bilish",
+      "residents": "8.66 mln",
+      "square": "41.290 km",
+      "price": "$400"
+    },
+    "question": "Qiziqarlimi ?"
+  },
+  "order": {
+    "title": "O'zingiz yoqtirganingizni tanlang",
+    "description": "O'z joyingizni band qiling",
+    "btn": "Ko'proq bilish",
+    "contact": {
+      "num": "Telefon raqam",
+      "email": "Bizga email orqali bog'laning",
+      "location": {
+        "title": "Ofisimizga tashrif buyuring",
+        "link": "Yakkasaroy tumani, Boʻrijar koʻchasi 1-uy"
+      }
+    }
+  },
+  "contact": {
+    "title": "O'z joyingizni band qiling",
+    "form": {
+      "name": "Ismingiz",
+      "nLabel": "Misol. Palonchi Palonchiyev",
+      "number": "Telefon raqamingiz",
+      "numLabel": "Misol. +998 99 999 99 90",
+      "people": "Necha kishisiz",
+      "pLabel": "Misol. 3 yoki 4 yoki 5",
+      "date": "Uchish sanasi",
+      "loc": "Manzilingizni tanlang",
+      "lLabel": "Misol. Pekin",
+      "lOption": {
+        "first": "Guanchjou",
+        "second": "Xitoy",
+        "third": "Nankin"
+      },
+      "visa": "Visa turini tanlang",
+      "vLabel": "Misol. Xitoy .",
+      "vOption": {
+        "first": "Xi'an",
+        "second": "Shenzhen",
+        "third": "Chendu"
+      }
+    },
+    "btn": "Band qilish"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "navbar": {
+    "main": "Main",
+    "about": "About",
+    "tours": "Tours",
+    "contact": "Contact"
+  },
+  "main": {
+    "title": "Experience the beauties of the East with us!",
+    "name": "China",
+    "button": "Contact us"
+  },
+  "tours": {
+    "title": "Top 10 Beautiful Destinations for Unforgettable Travels",
+    "paragraph": "Every week, new opportunities and unexpected adventures await you! Each city reveals its hidden beauty, offering you new adventures. Feel like you are part of these wonders!",
+
+    "title_2": "We offer exclusive trips to these destinations!",
+    "paragraph_2": "We organize comfortable and safe trips to Chinese cities just for you!"
+  },
+  "tickets": {
+    "title": "Find Tickets With us Easily and at a Low Price",
+    "paragraph": "Find the best deals on railway and airplane tickets in each city, carefully selected for you.",
+    "ticket": {
+      "title": "Cheap Railway Tickets With Us",
+      "desc": "Whole world",
+      "paragraph": "Embark on a railway adventure and explore destinations worldwide. Whether its the picturesque landscapes, bustling cities, or cultural gems, our rail services offer a unique and comfortable way to traverse the globe. Immerse yourself in the beauty of different cultures, all accessible through our extensive railway network.",
+      "btn": "Explore more"
+    }
+  },
+  "facts": {
+    "title": "Interesting facts about China",
+    "description": "China has a unique garden culture and history. In this section, we will provide you with interesting information.",
+    "fact": {
+      "title": "Tea culture",
+      "paragraph": "Chinese Tea Culture",
+      "description": "Chinese tea culture has developed over centuries and is one of the oldest traditions in the world. Drinking tea has become an integral part of daily life for the Chinese people, and this culture reflects not only the method of preparing the beverage but also the respect for health and spirit.",
+      "btn": "Explore more",
+      "residents": "8.66 M",
+      "square": "41.290 km",
+      "price": "$400"
+    },
+    "question": "Need Directions ?"
+  },
+  "order": {
+    "title": "Book Prefered Deal Here",
+    "description": "Make Your Reservation",
+    "btn": "Discover more",
+    "contact": {
+      "num": "Make a Phone Call",
+      "email": "Contact Us via Email",
+      "location": {
+        "title": "Visit Our Offices",
+        "link": "Yakkasaray District, 1 Borijar Street."
+      }
+    }
+  },
+  "contact": {
+    "title": "Make Your Reservation Through This Form",
+    "form": {
+      "name": "Your name",
+      "nLabel": "Ex. John Smith",
+      "number": "Your phone number",
+      "numLabel": "Ex. +998 99 999 99 90",
+      "people": "Number of Guests",
+      "pLabel": "Ex. 3 or 4 or 5",
+      "date": "Check in Date",
+      "loc": "Choose Your Destinations",
+      "lLabel": "Ex. Beijing",
+      "lOption": {
+        "first": "Guanchjou",
+        "second": "Xitoy",
+        "third": "Nankin"
+      },
+      "visa": "Choose Your Visa Support",
+      "vLabel": "Ex. Xitoy .",
+      "vOption": {
+        "first": "Xi'an",
+        "second": "Shenzhen",
+        "third": "Chendu"
+      }
+    },
+    "btn": "Make A Reservation Now"
+  },
+  "footer": {
+    "title": "Tourland guarantees quality and reliable service.",
+    "desc": "You deserve the best, Tourland is the best choice!",
+    "link": "Useful Links",
+    "other": "Other Resources"
+  }
+}

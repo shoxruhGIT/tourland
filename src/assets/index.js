@@ -1,0 +1,9 @@
+export { default as Logo } from "./tourland.png";
+export { default as Telegram } from "./telegram.png";
+export { default as Instagram } from "./instagram.png";
+export { default as Facebook } from "./facebook.png";
+export { default as Picture } from "./picture.jpg";
+export { default as Chindu } from "./chindu.jpg";
+export { default as Train } from "./train.jpg";
+export { default as Tea } from "./tea.jpg";
+export { default as Order } from "./Order.jpg";
