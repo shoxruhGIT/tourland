@@ -1,4 +1,3 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 import { Tea } from "../assets";
 import { IoPersonSharp } from "react-icons/io5";
@@ -8,70 +7,87 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 
 const Facts = () => {
   const { t } = useTranslation();
-
   const facts = [1, 2, 3, 4];
 
   return (
-    <div className="w-full">
-      <div className="w-[500px] p-5 md:p-0 md:w-[1380px] m-auto mt-32">
-        <h1 className="ml-12 text-2xl sm:text-3xl font-bold max-w-[400px] md:max-w-[850px] mx-auto text-[#2A2A2A]">
-          {t("facts.title")}
-        </h1>
-        <p className="ml-12 text-[14px] sm:text-[15px] text-[#01294c] max-w-[400px] sm:max-w-[627px] mx-auto mt-5 mb-5">
-          {t("facts.description")}
-        </p>
+    <div className="w-full py-8 md:py-12">
+      <div className="w-full max-w-[1380px] mx-auto mt-16 sm:mt-24 md:mt-32 px-4 sm:px-6 lg:px-8">
+        <div className="mb-8 md:mb-12">
+          <h1 className="text-2xl sm:text-3xl font-bold text-[#2A2A2A] ml-0 sm:ml-6 md:ml-12">
+            {t("facts.title")}
+          </h1>
+          <p className="text-[14px] sm:text-[15px] text-[#01294c] mt-3 sm:mt-5 ml-0 sm:ml-6 md:ml-12 max-w-2xl">
+            {t("facts.description")}
+          </p>
+        </div>
 
-        {facts.map((_, index) => (
-          <div
-            key={index}
-            className={`xl:w-[100%] md:w-[950px] w-[450px] mx-auto flex flex-col md:flex-row justify-center gap-9 mb-10 pb-5 
-            ${
-              index !== facts.length - 1
-                ? "w-[1340px] border-b border-[#01294C]"
-                : ""
-            }`}
-          >
-            <img
-              className="w-[200px] md:h-[227px] md:w-[30%] rounded-3xl overflow-hidden"
-              src={Tea}
-              alt="picture"
-            />
-            <div className="md:w-[60%] flex flex-col items-left gap-4">
-              <div className="flex items-center justify-between">
-                <h2 className="text-[20px] font-bold">
-                  {t("facts.fact.title")}
-                </h2>
-                <button className="bg-[#9FD1F0] text-[#01294C] rounded-3xl py-3 px-5 sm:px-10 sm:text-[14px] text-[12px] hover:bg-white hover:border-[#01294C] hover:border-[1px] border-[1px] border-[#9FD1F0] hover:text-main transition-colors duration-500 outline-none">
-                  {t("facts.fact.btn")}
-                </button>
+        <div className="w-full max-w-[1300px] mx-auto space-y-8 md:space-y-10">
+          {facts.map((_, index) => (
+            <div
+              key={index}
+              className={`w-full ${
+                index !== facts.length - 1
+                  ? "pb-8 border-b border-[#01294C]/20"
+                  : ""
+              }`}
+            >
+              <div className="flex flex-col md:flex-row justify-center gap-4 sm:gap-6 lg:gap-9">
+                <div className="w-full md:w-[30%] flex-shrink-0">
+                  <img
+                    className="w-full h-[200px] sm:h-[227px] object-cover rounded-2xl md:rounded-3xl overflow-hidden"
+                    src={Tea || "/placeholder.svg"}
+                    alt={`Fact ${index + 1}`}
+                  />
+                </div>
+
+                <div className="w-full md:w-[70%] lg:w-[60%] flex flex-col gap-3 sm:gap-4">
+                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                    <h2 className="text-[18px] md:text-[20px] font-bold">
+                      {t("facts.fact.title")}
+                    </h2>
+                    <a href="#info" className="self-start sm:self-auto bg-[#9FD1F0] text-[#01294C] rounded-3xl py-2 md:py-3 px-5 sm:px-8 md:px-10 text-[12px] sm:text-[14px] hover:bg-white hover:border-[#01294C] hover:border-[1px] border-[1px] border-[#9FD1F0] hover:text-main transition-colors duration-500 outline-none">
+                      {t("facts.fact.btn")}
+                    </a>
+                  </div>
+
+                  <h3 className="text-[14px] md:text-[15px] text-[#AFAFAF]">
+                    {t("facts.fact.paragraph")}
+                  </h3>
+
+                  <p className="text-[14px] md:text-[15px] text-[#AFAFAF] leading-6 md:leading-8">
+                    {t("facts.fact.description")}
+                  </p>
+
+                  <div className="border-t border-[#979494] my-2 md:my-3"></div>
+
+                  <div className="flex flex-wrap gap-y-3 justify-between text-[#979494] text-[13px] sm:text-[14px]">
+                    <p className="flex items-center gap-2 min-w-[30%]">
+                      <IoPersonSharp className="text-[#9FD1F0]" />
+                      {t("facts.fact.residents")}
+                    </p>
+                    <p className="flex items-center gap-2 min-w-[30%]">
+                      <TbWorld className="text-[#9FD1F0]" />
+                      {t("facts.fact.square")}
+                    </p>
+                    <p className="flex items-center gap-2 min-w-[30%]">
+                      <FaHouse className="text-[#9FD1F0]" />
+                      {t("facts.fact.price")}
+                    </p>
+                  </div>
+
+                  <div className="border-t border-[#979494] my-2 md:my-3"></div>
+
+                  <p className="font-bold text-[#9FD1F0] cursor-pointer flex items-center gap-2 group">
+                    <span className="group-hover:underline">
+                      {t("facts.question")}
+                    </span>
+                    <FaLongArrowAltRight className="transition-transform group-hover:translate-x-2" />
+                  </p>
+                </div>
               </div>
-              <h3 className="text-[15px] text-[#AFAFAF]">
-                {t("facts.fact.paragraph")}
-              </h3>
-              <p className="text-[15px] text-[#AFAFAF] leading-8">
-                {t("facts.fact.description")}
-              </p>
-              <div className="border-[1px] border-[#979494]" />
-              <div className="flex items-center justify-between text-[#979494] ">
-                <p className="flex items-center gap-2">
-                  <IoPersonSharp /> {t("facts.fact.residents")}
-                </p>
-                <p className="flex items-center gap-2">
-                  <TbWorld /> {t("facts.fact.square")}
-                </p>
-                <p className="flex items-center gap-2">
-                  <FaHouse />
-                  {t("facts.fact.price")}
-                </p>
-              </div>
-              <div className="border-[1px] border-[#979494]" />
-              <p className="font-bold text-[#9FD1F0] cursor-pointer flex items-center gap-2 hover:gap-6 transition-all">
-                {t("facts.question")}
-                <FaLongArrowAltRight />
-              </p>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );

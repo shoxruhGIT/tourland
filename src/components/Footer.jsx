@@ -6,8 +6,8 @@ const Footer = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="w-full h-[300px] bg-[#01294C] pt-10">
-      <div className="w-[1380px] m-auto">
+    <div className="bg-[#01294C] text-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex justify-between">
           <div className="flex flex-col gap-4">
             <h1 className="text-3xl font-semibold text-white">
@@ -50,7 +50,10 @@ const Footer = () => {
         </div>
         <div className="h-[1px] bg-white mt-10" />
         <h3 className="text-center text-white mt-6">
-          Copyright © 2025 Limsa <a href="www.limsa.uz" className="hover:text-gray-900 cursor-pointer">Creative Tim.</a>
+          Copyright © 2025 Limsa{" "}
+          <a href="www.limsa.uz" className="hover:text-gray-900 cursor-pointer">
+            Creative Tim.
+          </a>
         </h3>
       </div>
     </div>

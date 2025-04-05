@@ -20,7 +20,7 @@ const App = () => {
   };
 
   return (
-    <div className="w-full">
+    <div className="min-h-screen">
       <Navbar handleChangeLanguage={handleChangeLanguage} />
       <Main />
       <Tours />
