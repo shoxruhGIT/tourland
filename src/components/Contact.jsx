@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { Bounce, toast } from "react-toastify";
 
 const Contact = () => {
   const { t } = useTranslation();
@@ -39,7 +40,17 @@ const Contact = () => {
         text: text,
       });
 
-      alert("Done my brother");
+      toast.success("Your data was sent successfully.", {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        transition: Bounce,
+      });
       setFormData({
         name: "",
         phone: "",

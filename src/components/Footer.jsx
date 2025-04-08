@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="bg-[#01294C] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="flex justify-between">
+        <div className="flex flex-col md:flex-row gap-6 items-center md:gap-0 md:items-start justify-between">
           <div className="flex flex-col gap-4">
             <h1 className="text-3xl font-semibold text-white">
               {t("footer.title")}
@@ -16,13 +16,31 @@ const Footer = () => {
             <p className=" text-white text-lg">{t("footer.desc")}</p>
             <div className="flex items-center gap-4">
               <button className="w-[44px] h-[44px] rounded-[50%] flex items-center justify-center bg-[#FFFFFF]">
-                <img src={Telegram} alt="instagram" />
+                <a
+                  href="https://t.me/tourland_uz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={Telegram} alt="Telegram" />
+                </a>
               </button>
               <button className="w-[44px] h-[44px] rounded-[50%] flex items-center justify-center bg-[#FFFFFF]">
-                <img src={Instagram} alt="instagram" />
+                <a
+                  href="https://www.instagram.com/tourland_uz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={Instagram} alt="Instagram" />
+                </a>
               </button>
               <button className="w-[44px] h-[44px] rounded-[50%] flex items-center justify-center bg-[#FFFFFF]">
-                <img src={Facebook} alt="instagram" />
+                <a
+                  href="https://www.facebook.com/profile.php?id=61565792592998&mibextid=LQQJ4d"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={Facebook} alt="Facebook" />
+                </a>
               </button>
             </div>
           </div>

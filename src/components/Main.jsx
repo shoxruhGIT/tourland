@@ -2,6 +2,7 @@ import { gsap } from "gsap";
 import React, { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import ContactModal from "./ContactModal";
+import { ToastContainer } from "react-toastify";
 
 const Main = () => {
   const { t } = useTranslation();
@@ -25,9 +26,8 @@ const Main = () => {
 
   return (
     <div className="w-full h-[89vh] overflow-hidden max-w-[1900px]">
-      <div
-        className="absolute inset-0 bg-cover bg-center flex items-center justify-center bg-[url(./assets/china.jpg)]"
-      >
+      <ToastContainer />
+      <div className="absolute inset-0 bg-cover bg-center flex items-center justify-center bg-[url(./assets/china.jpg)]">
         <div className="w-[90%] max-w-[1380px] flex flex-col items-center justify-center text-center gap-4">
           <p className="sm:text-2xl text-xl text-white">{t("main.title")}</p>
           <h1 className="text-white sm:text-[63px] text-[40px] font-bold leading-tight">
