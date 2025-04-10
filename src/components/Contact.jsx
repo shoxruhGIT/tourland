@@ -182,6 +182,7 @@ const Contact = () => {
                   value={formData.visa}
                   onChange={handleChange}
                   id="visa"
+                  required
                 >
                   <option value>{t("contact.form.vLabel")}</option>
                   <option value={t("contact.form.vOption.first")}>

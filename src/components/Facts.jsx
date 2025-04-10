@@ -7,7 +7,48 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 
 const Facts = () => {
   const { t } = useTranslation();
-  const facts = [1, 2, 3, 4];
+  const facts = [
+    {
+      id: 1,
+      title: "Tea Culture",
+      img: "https://tourland.uz/assets/choy-w3JqHud4.jpg",
+      p: "Chinese Tea Culture",
+      desc: "Chinese tea culture has developed over centuries and is one of the oldest traditions in the world. Drinking tea has become an integral part of daily life for the Chinese people, and this culture reflects not only the method of preparing the beverage but also the respect for health and spirit.",
+      community: "8.66 M",
+      area: "41.290 km",
+      price: "$400",
+    },
+    {
+      id: 2,
+      title: "The Middle Kingdom",
+      img: "https://tourland.uz/assets/fakt2-D3v8jOP9.jpg",
+      p: "China, The Middle Kingdom",
+      desc: "(In Chinese, Tiānxià — 天下) is a concept of great significance in Chinese culture and history. This ancient phrase is used to describe China and the worldview associated with it. The concept of the Middle Kingdom developed during the imperial era of China, where it was seen as the place ruled by Heaven (Tian), and this rule was considered to extend to everything on Earth.",
+      community: "44.48 M",
+      area: "275.400 km",
+      price: "$946",
+    },
+    {
+      id: 3,
+      title: "Chinese cuisine",
+      img: "https://tourland.uz/assets/xitoyta-J6lzAjoF.jpeg",
+      p: "The Diversity of Chinese Cuisine",
+      desc: "Chinese cuisine is famous worldwide for its diversity of dishes. Each region is known for its unique dishes, for example, Sichuan cuisine is known for its spiciness, while Beijing is famous for Peking duck.",
+      community: "67.41 M",
+      area: "551.500 km",
+      price: "$425",
+    },
+    {
+      id: 4,
+      title: "The homeland of pandas",
+      img: "https://tourland.uz/assets/panda-mRCbW3Hl.jpg",
+      p: "Pandas – A Diplomatic Symbol of China",
+      desc: "Giant pandas play an important role in Chinese diplomacy. China has temporarily leased its pandas to other countries to strengthen diplomatic relations. This is known as panda diplomacy and is used to enhance China's relationships with international partners. The leased pandas can be seen in various zoos around the world, many of them in the USA, Japan, and European countries.",
+      community: "44.48 M",
+      area: "275.400 km",
+      price: "$546",
+    },
+  ];
 
   return (
     <div className="w-full py-8 md:py-12">
@@ -22,7 +63,7 @@ const Facts = () => {
         </div>
 
         <div className="w-full max-w-[1300px] mx-auto space-y-8 md:space-y-10">
-          {facts.map((_, index) => (
+          {facts.map((item, index) => (
             <div
               key={index}
               className={`w-full ${
@@ -35,7 +76,7 @@ const Facts = () => {
                 <div className="w-full md:w-[30%] flex-shrink-0">
                   <img
                     className="w-full h-[200px] sm:h-[227px] object-cover rounded-2xl md:rounded-3xl overflow-hidden"
-                    src={Tea || "/placeholder.svg"}
+                    src={item.img}
                     alt={`Fact ${index + 1}`}
                   />
                 </div>
@@ -43,19 +84,22 @@ const Facts = () => {
                 <div className="w-full md:w-[70%] lg:w-[60%] flex flex-col gap-3 sm:gap-4">
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                     <h2 className="text-[18px] md:text-[20px] font-bold">
-                      {t("facts.fact.title")}
+                      {item.title}
                     </h2>
-                    <a href="#info" className="self-start sm:self-auto bg-[#9FD1F0] text-[#01294C] rounded-3xl py-2 md:py-3 px-5 sm:px-8 md:px-10 text-[12px] sm:text-[14px] hover:bg-white hover:border-[#01294C] hover:border-[1px] border-[1px] border-[#9FD1F0] hover:text-main transition-colors duration-500 outline-none">
+                    <a
+                      href="#info"
+                      className="self-start sm:self-auto bg-[#9FD1F0] text-[#01294C] rounded-3xl py-2 md:py-3 px-5 sm:px-8 md:px-10 text-[12px] sm:text-[14px] hover:bg-white hover:border-[#01294C] hover:border-[1px] border-[1px] border-[#9FD1F0] hover:text-main transition-colors duration-500 outline-none"
+                    >
                       {t("facts.fact.btn")}
                     </a>
                   </div>
 
                   <h3 className="text-[14px] md:text-[15px] text-[#AFAFAF]">
-                    {t("facts.fact.paragraph")}
+                    {item.p}
                   </h3>
 
                   <p className="text-[14px] md:text-[15px] text-[#AFAFAF] leading-6 md:leading-8">
-                    {t("facts.fact.description")}
+                    {item.desc}
                   </p>
 
                   <div className="border-t border-[#979494] my-2 md:my-3"></div>
@@ -63,15 +107,15 @@ const Facts = () => {
                   <div className="flex flex-wrap gap-y-3 justify-between text-[#979494] text-[13px] sm:text-[14px]">
                     <p className="flex items-center gap-2 min-w-[30%]">
                       <IoPersonSharp className="text-[#9FD1F0]" />
-                      {t("facts.fact.residents")}
+                      {item.community}
                     </p>
                     <p className="flex items-center gap-2 min-w-[30%]">
                       <TbWorld className="text-[#9FD1F0]" />
-                      {t("facts.fact.square")}
+                      {item.area}
                     </p>
                     <p className="flex items-center gap-2 min-w-[30%]">
                       <FaHouse className="text-[#9FD1F0]" />
-                      {t("facts.fact.price")}
+                      {item.price}
                     </p>
                   </div>
 
