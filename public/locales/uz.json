@@ -30,15 +30,45 @@
   "facts": {
     "title": "Xitoy Haqida Qiziqarli Faktlar",
     "description": "Bilamizkiy, Xitoy o‘ziga xos bog‘ madaniyatiga va tarixiga ega. Biz sizga bu bo‘limda qiziqarli ma'lumotlarni taqdim etamiz.",
-    "fact": {
-      "title": "Choy madaniyati",
-      "paragraph": "Xitoyning choy madaniyati",
-      "description": "Xitoy choy madaniyati asrlar davomida shakllangan va dunyodagi eng qadimiy an'analardan biridir. Choy ichish Xitoy xalqining kundalik hayotining ajralmas qismiga aylangan bo‘lib, bu madaniyat nafaqat ichimlikni tayyorlash uslubini, balki sog‘liq va ruhiyatga bo‘lgan hurmatni ham aks ettiradi.",
-      "btn": "Ko'proq bilish",
-      "residents": "8.66 mln",
-      "square": "41.290 km",
-      "price": "$400"
+    "fact-s": {
+      "facts_1": {
+        "title": "Choy madaniyati",
+        "paragraph": "Xitoyning choy madaniyati",
+        "description": "Xitoy choy madaniyati asrlar davomida shakllangan va dunyodagi eng qadimiy an'analardan biridir. Choy ichish Xitoy xalqining kundalik hayotining ajralmas qismiga aylangan bo‘lib, bu madaniyat nafaqat ichimlikni tayyorlash uslubini, balki sog‘liq va ruhiyatga bo‘lgan hurmatni ham aks ettiradi.",
+        "btn": "Ko'proq bilish",
+        "residents": "8.66 mln",
+        "square": "41.290 km",
+        "price": "$400"
+      },
+      "facts_2": {
+        "title": "Osmon osti mamlakati",
+        "paragraph": "Xitoy Osmon osti mamlakati",
+        "description": "((Xitoy tilida Tiānxià — 天下) tushunchasi Xitoy madaniyatida va tarixida muhim ahamiyatga ega. Bu qadimiy ibora Xitoyni va u bilan bog‘liq bo‘lgan dunyoqarashni tasvirlash uchun ishlatiladi. Osmon osti mamlakati tushunchasi Xitoy imperatorlik davrida shakllangan bo‘lib, Osmon (Tian) hukmronlik qiladigan joy sifatida ko‘rilgan va bu hukmronlik er yuzidagi barcha narsalarga taalluqli deb qaralgan.",
+        "residents": "44.8 mln",
+        "square": "275.400 km",
+        "price": "$946",
+        "btn": "Ko'proq bilish"
+      },
+      "facts_3": {
+        "title": "Xitoy oshxonasi",
+        "paragraph": "Xitoy oshxonasining xilma-xilligi",
+        "description": "Xitoy oshxonasi butun dunyoda mashhur bo‘lib, taomlarning xilma-xilligi bilan ajralib turadi. Har bir viloyat o‘ziga xos taomlari bilan tanilgan, masalan, Siçuan taomlari o‘tkir, Pekin esa Pekin o‘rdagi bilan mashhur",
+        "btn": "Ko'proq bilish",
+        "residents": "67.41 mln",
+        "square": "551.500 km",
+        "price": "$420"
+      },
+      "facts_4": {
+        "title": "Pandalar vatani",
+        "paragraph": "Pandalar – Xitoyning diplomatik ramzi",
+        "description": "Gigant pandalar Xitoy diplomatiyasida muhim rol o‘ynaydi. Xitoy o‘z pandalarini boshqa davlatlarga diplomatik munosabatlarni mustahkamlash maqsadida vaqtincha ijaraga berib kelgan. Bu panda diplomatiyasi deb ataladi va Xitoyning xalqaro hamkorlar bilan aloqalarini mustahkamlashda ishlatiladi. Ijaraga olingan pandalar dunyodagi turli hayvonot bog‘larida bo‘lib, ularning ko‘pini AQSh, Yaponiya, va Yevropa davlatlarida ko‘rish mumkin.",
+        "btn": "Ko'proq bilish",
+        "residents": "44.48 mln",
+        "square": "275.400 km",
+        "price": "$546"
+      }
     },
+    "btn": "Ko'proq bilish",
     "question": "Qiziqarlimi ?"
   },
   "order": {
@@ -80,5 +110,11 @@
       }
     },
     "btn": "Band qilish"
+  },
+  "footer": {
+    "title": "Tourland sifatli va ishonchli xizmatni kafolatlaydi.",
+    "desc": "Siz eng yaxshisiga loyiqsiz, Tourlend — eng yaxshi tanlov!",
+    "link": "Foydali Linklar",
+    "other": "Boshqa manbalar"
   }
 }

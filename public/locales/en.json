@@ -30,15 +30,44 @@
   "facts": {
     "title": "Interesting facts about China",
     "description": "China has a unique garden culture and history. In this section, we will provide you with interesting information.",
-    "fact": {
-      "title": "Tea culture",
-      "paragraph": "Chinese Tea Culture",
-      "description": "Chinese tea culture has developed over centuries and is one of the oldest traditions in the world. Drinking tea has become an integral part of daily life for the Chinese people, and this culture reflects not only the method of preparing the beverage but also the respect for health and spirit.",
-      "btn": "Explore more",
-      "residents": "8.66 M",
-      "square": "41.290 km",
-      "price": "$400"
+    "fact-s": {
+      "facts_1": {
+        "title": "Tea culture",
+        "paragraph": "Chinese Tea Culture",
+        "description": "Chinese tea culture has developed over centuries and is one of the oldest traditions in the world. Drinking tea has become an integral part of daily life for the Chinese people, and this culture reflects not only the method of preparing the beverage but also the respect for health and spirit.",
+        "btn": "Explore more",
+        "residents": "8.66 M",
+        "square": "41.290 km",
+        "price": "$400"
+      },
+      "facts_2": {
+        "title": "The Middle Kingdom",
+        "paragraph": "China, The Middle Kingdom",
+        "description": "(In Chinese, Tiānxià — 天下) is a concept of great significance in Chinese culture and history. This ancient phrase is used to describe China and the worldview associated with it. The concept of the Middle Kingdom developed during the imperial era of China, where it was seen as the place ruled by Heaven (Tian), and this rule was considered to extend to everything on Earth.",
+        "residents": "44.8 M",
+        "square": "275.400 km",
+        "price": "$946"
+      },
+      "facts_3": {
+        "title": "Chinese cuisine",
+        "paragraph": "The Diversity of Chinese Cuisine",
+        "description": "Chinese cuisine is famous worldwide for its diversity of dishes. Each region is known for its unique dishes, for example, Sichuan cuisine is known for its spiciness, while Beijing is famous for Peking duck.",
+        "btn": "Explore more",
+        "residents": "67.41 M",
+        "square": "551.500 km",
+        "price": "$420"
+      },
+      "facts_4": {
+        "title": "The homeland of pandas",
+        "paragraph": "Pandas – A Diplomatic Symbol of China",
+        "description": "Giant pandas play an important role in Chinese diplomacy. China has temporarily leased its pandas to other countries to strengthen diplomatic relations. This is known as panda diplomacy and is used to enhance China's relationships with international partners. The leased pandas can be seen in various zoos around the world, many of them in the USA, Japan, and European countries.",
+        "btn": "Explore more",
+        "residents": "44.48 M",
+        "square": "275.400 km",
+        "price": "$546"
+      }
     },
+    "btn": "Explore more",
     "question": "Need Directions ?"
   },
   "order": {

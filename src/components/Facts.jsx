@@ -10,40 +10,40 @@ const Facts = () => {
   const facts = [
     {
       id: 1,
-      title: "Tea Culture",
+      title: t("facts.fact-s.facts_1.title"),
       img: "https://tourland.uz/assets/choy-w3JqHud4.jpg",
-      p: "Chinese Tea Culture",
-      desc: "Chinese tea culture has developed over centuries and is one of the oldest traditions in the world. Drinking tea has become an integral part of daily life for the Chinese people, and this culture reflects not only the method of preparing the beverage but also the respect for health and spirit.",
-      community: "8.66 M",
+      p: t("facts.fact-s.facts_1.paragraph"),
+      desc: t("facts.fact-s.facts_1.description"),
+      community: t("facts.fact-s.facts_1.residents"),
       area: "41.290 km",
       price: "$400",
     },
     {
       id: 2,
-      title: "The Middle Kingdom",
+      title: t("facts.fact-s.facts_2.title"),
       img: "https://tourland.uz/assets/fakt2-D3v8jOP9.jpg",
-      p: "China, The Middle Kingdom",
-      desc: "(In Chinese, Tiānxià — 天下) is a concept of great significance in Chinese culture and history. This ancient phrase is used to describe China and the worldview associated with it. The concept of the Middle Kingdom developed during the imperial era of China, where it was seen as the place ruled by Heaven (Tian), and this rule was considered to extend to everything on Earth.",
+      p: t("facts.fact-s.facts_2.paragraph"),
+      desc: t("facts.fact-s.facts_2.description"),
       community: "44.48 M",
       area: "275.400 km",
       price: "$946",
     },
     {
       id: 3,
-      title: "Chinese cuisine",
+      title: t("facts.fact-s.facts_3.title"),
       img: "https://tourland.uz/assets/xitoyta-J6lzAjoF.jpeg",
-      p: "The Diversity of Chinese Cuisine",
-      desc: "Chinese cuisine is famous worldwide for its diversity of dishes. Each region is known for its unique dishes, for example, Sichuan cuisine is known for its spiciness, while Beijing is famous for Peking duck.",
+      p: t("facts.fact-s.facts_3.paragraph"),
+      desc: t("facts.fact-s.facts_3.description"),
       community: "67.41 M",
       area: "551.500 km",
       price: "$425",
     },
     {
       id: 4,
-      title: "The homeland of pandas",
+      title: t("facts.fact-s.facts_4.title"),
       img: "https://tourland.uz/assets/panda-mRCbW3Hl.jpg",
-      p: "Pandas – A Diplomatic Symbol of China",
-      desc: "Giant pandas play an important role in Chinese diplomacy. China has temporarily leased its pandas to other countries to strengthen diplomatic relations. This is known as panda diplomacy and is used to enhance China's relationships with international partners. The leased pandas can be seen in various zoos around the world, many of them in the USA, Japan, and European countries.",
+      p: t("facts.fact-s.facts_4.paragraph"),
+      desc: t("facts.fact-s.facts_4.description"),
       community: "44.48 M",
       area: "275.400 km",
       price: "$546",
@@ -90,7 +90,7 @@ const Facts = () => {
                       href="#info"
                       className="self-start sm:self-auto bg-[#9FD1F0] text-[#01294C] rounded-3xl py-2 md:py-3 px-5 sm:px-8 md:px-10 text-[12px] sm:text-[14px] hover:bg-white hover:border-[#01294C] hover:border-[1px] border-[1px] border-[#9FD1F0] hover:text-main transition-colors duration-500 outline-none"
                     >
-                      {t("facts.fact.btn")}
+                      {t("facts.btn")}
                     </a>
                   </div>
 
